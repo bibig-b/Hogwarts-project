@@ -1,0 +1,28 @@
+body{
+    font-family: 'Georgia', serif;
+    background-color: #f3f0e6;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.container{
+    max-width: 600px;
+    margin: auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.question{
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label{
+    display: block;
+    margin: 5px;
+    cursor: pointer;
+}

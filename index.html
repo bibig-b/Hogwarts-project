@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+    <title>Qual é sua casa em Hogwarts?</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Descubra sua casa em Hogwarts!</h1>
+        <form id="quiz-form">
+            <div>
+                <label for="question1">1. Qual é a sua característica mais forte?</label><br>
+                <input type="radio" name="question1" value="Gryffindor" required> Coragem<br>
+                <input type="radio" name="question1" value="Hufflepuff"> Lealdade<br>
+                <input type="radio" name="question1" value="Ravenclaw"> Inteligência<br>
+                <input type="radio" name="question1" value="Slytherin"> Ambição<br>
+            </div>
+            <div>
+                <label for="question2">2. Qual é o seu animal favorito?</label><br>
+                <input type="radio" name="question2" value="Gryffindor" required> Leão<br>
+                <input type="radio" name="question2" value="Hufflepuff"> Texugo<br>
+                <input type="radio" name="question2" value="Ravenclaw"> Águia<br>
+                <input type="radio" name="question2" value="Slytherin"> Serpente<br>
+            </div>
+            <div>
+                <label for="question3">3. Qual é o seu maior objetivo?</label><br>
+                <input type="radio" name="question3" value="Gryffindor" required> Proteger os outros<br>
+                <input type="radio" name="question3" value="Hufflepuff"> Ser justo e honesto<br>
+                <input type="radio" name="question3" value="Ravenclaw"> Buscar conhecimento<br>
+                <input type="radio" name="question3" value="Slytherin"> Alcançar poder<br>
+            </div>
+            <button type="submit">Descobrir minha casa!</button>
+        </form>
+        <div id="result" style="margin-top:20px;"></div>    
+    </div>
+    <script src="./scripts/index.js"></script>
+</body>
+</html>
