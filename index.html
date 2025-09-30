@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+
     <title>Qual é sua casa em Hogwarts?</title>
 </head>
 <body>
@@ -31,9 +33,17 @@
                 <input type="radio" name="question3" value="Ravenclaw"> Buscar conhecimento<br>
                 <input type="radio" name="question3" value="Slytherin"> Alcançar poder<br>
             </div>
-            <button type="submit">Descobrir minha casa!</button>
+            <button type="submit" id="result__button">Descobrir minha casa!</button>
         </form>
-        <div id="result" style="margin-top:20px;"></div>    
+        <div id="result" >
+            <img id="brasao" src="" alt="Brasão da casa" style="width: 150px; margin-top: 20px; display: none;">
+            <h2 id="casa"></h2>
+            <p id="descricao">
+                <!-- Descrição da casa será exibida aqui -->
+                
+            </p>
+            <!-- Resultado será exibido aqui -->
+</div>    
     </div>
     <script src="./scripts/index.js"></script>
 </body>

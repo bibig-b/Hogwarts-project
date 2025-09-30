@@ -5,6 +5,9 @@ body{
     text-align: center;
     margin: 0;
     padding: 20px;
+    font-family: 'Cinzel Decorative', cursive;  background: radial-gradient(#1a1a1a, #000);
+    background-image: url('https://www.transparenttextures.com/patterns/stardust.png');
+    
 }
 
 .container{
@@ -26,3 +29,44 @@ label{
     margin: 5px;
     cursor: pointer;
 }
+
+button{
+    background-color: #6a4c93;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.result{
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+button:hover{
+    background-color: #9b59b6;
+    box-shadow: 0 0 10px #9b59b6;
+    transform: scale(1.05);
+}   
+.resultado.grifinoria { color: #ae0001; }
+.resultado.sonserina { color: #2a623d; }
+.resultado.corvinal { color: #222f5b; }
+.resultado.lufalufa { color: #ecb939; }
+
+.resultado {
+    opacity: 0;
+    transition: opacity 1s ease-in;
+  }
+  
+  .resultado.mostrar {
+    opacity: 1;
+  }
+.resultado img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
